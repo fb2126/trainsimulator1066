@@ -894,6 +894,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  cameraAngles:
+  - {x: 0, y: 0, z: 0}
+  - {x: 5, y: 2, z: 0}
+  - {x: 5, y: 0, z: -1.5}
+  - {x: 5, y: 0, z: 1}
 --- !u!1 &1178060401 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3910312951261361666, guid: 59eb56e7299d3d94e99f7bd0b7ee151a, type: 3}
