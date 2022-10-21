@@ -14,14 +14,12 @@ public class CameraBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButton(1))
         {
             transform.eulerAngles += speed * new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0);
             Debug.Log("X: " + Input.GetAxis("Mouse X"));
             Debug.Log("Y: " + Input.GetAxis("Mouse Y"));
             
         }
-        
     }
-
 }
